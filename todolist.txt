@@ -1,0 +1,21 @@
+Het is nu de bedoeling om het afgevinkte ook zo op te slaan in de localstorage
+
+1. ///////OPSLAAN IN DE TODOSCHECKED -> global variable 
+Is het opslaan van het afgevinkte in een aparte array, namelijk todosChecked
+localStorage.setItem(key, value);
+key => todosChecked		|| todos
+value => array 			|| array
+
+2. //////SELECTEREN
+In de function checkAndDel(); heb ik de opgeslagen mainParent (aka div) die check heeft/show heeft in checkedTodo
+De value daarvan heb ik doorgegeven in de saveCheckedTodostorage(checkedTodo);
+In de function wordt bepaald wanneer er sprake is van een checked todo.
+
+3. //////ADD CHECKED ITEM IN THE SAVECHECKEDTODOSTORAGE
+
+
+4. /////REMOVE CHECKED ITEM FROM THE TODOS ARRAY
+
+
+
+
